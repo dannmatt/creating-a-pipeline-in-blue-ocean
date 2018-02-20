@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        echo 'Running test stage'
+        echo 'Running test stage webhook test commit'
       }
     }
     stage('Build') {
